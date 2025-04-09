@@ -1,15 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="style.css" />
-        <script src="script.js"></script>
-        <title>Quizapp</title>
-    </head>
-    <body>
-        <main>
-            <div class="main-container">
+
+
+
+
+
+in dem ist alles drin
+
+--------------------------------------------------------------------------------
+<div class="main-container">
+</div>
+--------------------------------------------------------------------------------
+
+
+
+Headertemplate 
+
+----------------------------------------------------------------------------------
                 <header>
                     <img class="absolute-image" src="./Quizapp/logo.png" />
                     <div class="navbar">
@@ -27,7 +32,15 @@
                         </div>
                     </div>
                 </header>
-                <!-- <div class="container2">
+----------------------------------------------------------------------------
+
+
+
+Fragentemplate
+
+---------------------------------------------------------------------------------
+
+                <div class="container2">
                     <span class="quiz-question">Frage</span>
                     <div class="quiz-answer-container">
                         <span class="quiz-answer">Antwort1</span>
@@ -43,13 +56,40 @@
                     </div>
                     <footer>
                         <button><</button>
-                        <span class="pfixed"><b>1</b> von <b>5 Fragen</b></span>
+                        <span><b>1</b> von <b>5 Fragen</b></span>
                         <button>></button>
                     </footer>
-                </div> -->
-                <!---------------------------------------------->
+                </div>
+    
+--------------------------------------------------------------------------
+
+
+
+Welcome to the Awesome ... Quiz
+
+---------------------------------------------------------------------------
                 <div class="container2">
-                    <div class="completed-quiz">
+                    <div class="areyouready">
+                        <h1>
+                            Welcome to <br />
+                            The Awesome .... Quiz
+                        </h1>
+                        <span>Ready for the Challange?</span>
+                    </div>
+                    <footer>
+                        <button>START NOW ></button>
+                    </footer>
+                </div>
+
+----------------------------------------------------------------------------
+
+
+
+Completed Quiztemplate
+
+------------------------------------------------------------------------------
+
+                     <div class="completed-quiz">
                         <img src="./Quizapp/brain result.png" />
                         <span
                             >COMPLETE <br />
@@ -62,8 +102,5 @@
                         <button class="share">SHARE</button>
                         <button class="replay">REPLAY</button>
                     </div>
-                </div>
-            </div>
-        </main>
-    </body>
-</html>
+
+-------------------------------------------------------------------------------
