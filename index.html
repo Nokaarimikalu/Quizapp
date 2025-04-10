@@ -5,65 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css" />
         <script src="script.js"></script>
+        <script src="template.js"></script>
         <title>Quizapp</title>
     </head>
-    <body>
-        <main>
-            <div class="main-container">
-                <header>
-                    <img class="absolute-image" src="./Quizapp/logo.png" />
-                    <div class="navbar">
-                        <div class="navbar-container">
-                            <span class="navbar-children">HTML</span>
-                        </div>
-                        <div class="navbar-container">
-                            <span class="navbar-children">CSS</span>
-                        </div>
-                        <div class="navbar-container">
-                            <span class="navbar-children">JavaScript</span>
-                        </div>
-                        <div class="navbar-container">
-                            <span class="navbar-children">Java</span>
-                        </div>
-                    </div>
-                </header>
-                <!-- <div class="container2">
-                    <span class="quiz-question">Frage</span>
-                    <div class="quiz-answer-container">
-                        <span class="quiz-answer">Antwort1</span>
-                    </div>
-                    <div class="quiz-answer-container">
-                        <span class="quiz-answer">Antwort2</span>
-                    </div>
-                    <div class="quiz-answer-container">
-                        <span class="quiz-answer">Antwort3</span>
-                    </div>
-                    <div class="quiz-answer-container">
-                        <span class="quiz-answer">Antwort4</span>
-                    </div>
-                    <footer>
-                        <button><</button>
-                        <span class="pfixed"><b>1</b> von <b>5 Fragen</b></span>
-                        <button>></button>
-                    </footer>
-                </div> -->
-                <!---------------------------------------------->
-                <div class="container2">
-                    <div class="completed-quiz">
-                        <img src="./Quizapp/brain result.png" />
-                        <span
-                            >COMPLETE <br />
-                            ... QUIZ
-                        </span>
-                        <div>
-                            <span class="yellow">YOUR SCORE</span>
-                            <span>10/10</span>
-                        </div>
-                        <button class="share">SHARE</button>
-                        <button class="replay">REPLAY</button>
-                    </div>
-                </div>
-            </div>
-        </main>
+    <body onload="init()">
+        <div id="haupt">
+            <div id="header-container"></div>
+            <div id="main-container"></div>
+        </div>
     </body>
 </html>

@@ -43,20 +43,20 @@ Fragentemplate
                 <div class="container2">
                     <span class="quiz-question">Frage</span>
                     <div class="quiz-answer-container">
-                        <span class="quiz-answer">Antwort1</span>
+                        <span class="quiz-answer"><span class="abcd">A</span>Antwort1</span>
                     </div>
                     <div class="quiz-answer-container">
-                        <span class="quiz-answer">Antwort2</span>
+                        <span class="quiz-answer"><span class="abcd">B</span>Antwort2</span>
                     </div>
                     <div class="quiz-answer-container">
-                        <span class="quiz-answer">Antwort3</span>
+                        <span class="quiz-answer"><span class="abcd">C</span>Antwort3</span>
                     </div>
                     <div class="quiz-answer-container">
-                        <span class="quiz-answer">Antwort4</span>
+                        <span class="quiz-answer"><span class="abcd">D</span>Antwort4</span>
                     </div>
                     <footer>
                         <button><</button>
-                        <span><b>1</b> von <b>5 Fragen</b></span>
+                        <span class="pfixed"><b>1</b> von <b>5 Fragen</b></span>
                         <button>></button>
                     </footer>
                 </div>
